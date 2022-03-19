@@ -25,45 +25,35 @@ header > h1 {
     padding-left: 15px;
 }
 
-.aboutme {
-    text-align:center;
-    margin:50px 150px;
-    font-size: 18px;
-    color:white;
-    background-color:rgba(0, 0, 0, 0.801);
-}
-
-.works {
-    text-align:center;
-    margin:50px 150px;
-    font-size: 18px;
-    color:white;
-    background-color:rgba(0, 0, 0, 0.801);
-}
-
-.works {
-    text-align:center;
-    margin:50px 150px;
-    font-size: 18px;
-    color:white;
-    background-color:rgba(0, 0, 0, 0.801);
-    margin-top:15%;
-}
-
-.link {
-    text-align:center;
-    margin:50px 150px;
-    font-size: 18px;
-    color:white;
-    background-color:rgba(0, 0, 0, 0.801);
-}
-
+.aboutme,
+.link,
 .contact {
     text-align:center;
     margin:50px 150px;
     font-size: 18px;
     color:white;
     background-color:rgba(0, 0, 0, 0.801);
+    border-style: solid, black;
+    border-width: 1px;
+    border-radius: 50px;
+}
+
+.works {
+    text-align:center;
+    margin:50px 150px;
+    font-size: 18px;
+    color:white;
+    background-color:rgba(0, 0, 0, 0.801);
+    border-style: solid, rgba(0, 0, 0, 0.801);
+    border-width: 1px;
+    border-radius: 50px;
+    margin-top:15%;
+}
+
+main > h2 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
 }
 
 main > p {
@@ -73,7 +63,7 @@ main > p {
 }
 
 main > img {
-    width: 14%;
+    width: 13%;
     height: 25%;
     margin-left:200px;
     margin-top: -45px;
@@ -84,4 +74,16 @@ main > img {
     border: 1px solid rgb(22, 95, 95);
     width:35%;
     margin-left:35%;
+}
+
+
+.aboutpage,
+.horiseonpage {
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin: 20px 465px;
+    flex: 0 0 300px;
+    border-radius: 40px;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.801);
 }
