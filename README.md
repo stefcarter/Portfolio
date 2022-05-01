@@ -2,7 +2,7 @@
 A page created for future employers.
 
 # Description
-Porfolio page was made to show the current works I have done for jobs that I will apply for in the future. A place to add more content when available. 
+Portfolio page was made to show what I have to offer future employers and as a visual demonstration as to what I have leanred and can implement. 
 
 # Final 
 
