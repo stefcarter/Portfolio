@@ -6,6 +6,7 @@ Portfolio page was made to show what I have to offer future employers and as a v
 
 # Final 
 
-![](./assets/images/portfolio.png)
+![](./images/portupdate.jpg)
 
 https://stefcarter.github.io/Portfolio/
+
