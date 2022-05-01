@@ -62,7 +62,17 @@ body {
 .navbar-toggler-icon {
   background-color: black;
 }
-  
+
+.navbar-collapse {
+    flex-direction:row-reverse;
+}
+
+.resumeBttn {
+    background-color:rgb(54, 54, 136);
+    border-radius: 20px;
+    padding: 1px 0px 2px 2px;
+}
+
 #selfphoto {
   width: 180px;
   height: 250px;
