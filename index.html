@@ -4,46 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css" />
+    <title>Carter's Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Steffan Carter</h1>
-    </header>
+  <nav class="navbar navbar-expand-lg -light" id="navCol">
+    <div class="container-fluid">
+      <a class="navbar-brand navCol" href="#">SC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://docs.google.com/document/d/1ZWiWKj5uhlXXrNQpWZBzusjrIiC2I0lMcB6tOho3hKw/export/pdf">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <nav>
-        <a href="#aboutme">About Me</a>&nbsp;
-        <a href="#works">Works</a>&nbsp;
-        <a href="#contact">Contact Me</a>&nbsp;
-    </nav>
+  <div class="center">
+    <h9>Hello, my name is</h9>
+    <h1>Steffan Carter.</h1>
+    <h3>Working from the ground up for a better outcome.</h3>
+    <p>Striving to become the best web developer I can be!</p>
+  </div>
+  <div class="center">
+    <h3 class="lineEl">About Me</h3>
+    <p class="sizedText">I am a lifelong computer enthusiast, so I'm studying web development at Penn state in pursuit of a career I can be passionate about. I'm a husband and a dad to two boys, and in my offline time I enjoy hikes with my dog and expanding my tarantula collection.</p>
+    <div class="frameEl"><img id="selfphoto" src="./images/self.jpg"></div>
+  </div>
+  <div class="center pushUp">
+    <h3 class="lineEl">Experience</h3>
+    <ul>
+      <li>Front end work with HTML/CSS</li>
+      <li>Working within a group to accomplish goals</li>
+      <li>Hosting websites through providers</li>
+      <li>Managing and maintaining websites</li>
 
-    <main>
-         <a id="aboutme"><h2 class="aboutme">About Me</h2></a>
-         <div class="container">
-            <img src="assets/images/IMG_1613.jpg"  alt="Steffan Carter" width="180" height="190" style="border-radius:40px">
-            <p id="para1">Hello. My name is Steffan Carter. Currently learning how to become a web developer through Penn LPS. Looking forward to improving my skills and updating this page as time goes on.</p>
-        </div>   
-        <a id="works"><h2 class="works">Works</h2></a>
-        <div class="pictures">  
-            <section class="picwork">
-                <a href="https://stefcarter.github.io/prework-about-me/" target="_blank">
-                <img src="./assets/images/about.jpg" alt="About Me" width="250" height="190" style="border-radius:40px">
-                </a>
-                &nbsp;&nbsp;
-                <a href="https://stefcarter.github.io/code-refactoring/" target="_blank">
-                <img src="./assets/images/horiseon.PNG" alt="Horiseon clean up" width="250" height="190" style="border-radius:40px">
-                </a>
-            </section>
-            
-        </div>
+    </ul>
+  </div>
+  <div class="center">
+    <h3 class="lineEl">Work</h3>
+    <div class="pictures">  
+      <section class="picwork">
+          <a href="https://stefcarter.github.io/prework-about-me/" target="_blank">
+          <img src="./images/about.jpg" alt="About Me" width="250" height="190" style="border-radius:40px">
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://gordyd97.github.io/ecommerece-sales-locator/" target="_blank">
+          <img src="./images/pro1.png" alt="Horiseon clean up" width="250" height="190" style="border-radius:40px">
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://stefcarter.github.io/code-quiz/" target="_blank">
+          <img src="./images/codequiz.jpg" alt="Horiseon clean up" width="250" height="190" style="border-radius:40px">
+          </a>
+      </section>
+    </div>
+  </div>
+  <div class="center pushUp">
+    <h3 class="lineEl">Contact</h3>
+    <p>
+      <a href="xisled09@gmail.com" class="linkEl">Email📧</a>
+      <a href="https://github.com/stefcarter" class="linkEl">Github<img src="./images/GitHub-Mark.png" alt="Github-logo" width="25" height="25"></a>
+    </p>
+  </div>
 
-        <a id="contact"><h2 class="contact">Contact Me</h2></a>
-            <p><a href="xisled09@gmail.com" style="color:white">📧Email
-            </a></p>
-            <p><a href="https://github.com/stefcarter" style="color:white"><img src="assets/images/GitHub-Mark.png" alt="Github-logo" width="25" height="25">Github</a></p>
-    </main>
-
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

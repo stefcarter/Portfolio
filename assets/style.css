@@ -1,80 +1,72 @@
-header {
-    background: rgba(0, 0, 0, 0.801);
-    padding: 5px;
-    text-align: left;
-    color: white;
-}
-
-nav {
-    position:absolute;
-    top:45px;
-    right: 16px;
-    font-size: 18px;
-    color:white;
-}
-
-nav > a {
-    color:white;
-}
-
 body {
-    background-color: rgb(22, 95, 95);
-}
-
-header > h1 {
-    padding-left: 15px;
-}
-/* grouped sections under one style*/
-.aboutme,
-.contact,
-.works {
-    text-align:center;
-    margin:50px 150px;
-    font-size: 18px;
+    background-color:rgb(54, 54, 136);
+  }
+  
+  .navbar-light,
+  .navbar-brand,
+  .nav-link {
+    color: white;
+  }
+  
+  .navbar-expand-lg {
+    background-color:black;
+  }
+  
+  .center {
+    margin: auto;
+    width: 75%;
+    border: 3px solid none;
+    padding: 50px 5px 5px 0px;
     color:white;
-    background-color:rgba(0, 0, 0, 0.801);
-    border-style: solid, black;
-    border-width: 1px;
-    border-radius: 50px;
-}
-
-main > h2 {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 50px;
-    text-align:center;
-}
-main > img {
-    display: flex;
-    justify-content: center;
+  }
+  
+  .frameEl {
+    margin-top: -120px;
+    margin-left: 550px;
+    width: 21%;
+    border: 3px solid none;
+    padding: 5px 5px 5px 0px;
+    color:white;
+    border-radius: 10px;
+  }
     
-}
-main > p {
-    color:white;
-    text-align:center;
-    font-size: 20px;
-}
-
-.container,
-.picwork {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  .lineEl {
     display: flex;
-    justify-content: center;
-}
-
-#para1 {
+    align-items: center;
+  }
+  
+  .linkEl {
     color:white;
-    padding:10px;
-    font-size:larger;
-}
-
-/* responsive display added */
-@media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
- }
-}
+  }
+  
+  .sizedText {
+    width: 500px;
+  }
+  
+  .lineEl::after {
+    content: '';
+    flex: 1;
+    margin-right: 50%;
+    height: .1px;
+    background-color: white;
+  }
+  
+  .pushUp {
+    margin-left: 200px;
+  }
+  
+  .navbar-toggler{
+    background-color: white;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: black;
+  }
+    
+  #selfphoto {
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 2px 1px rgba(159, 159, 223, 0.2);
+  }
+  
